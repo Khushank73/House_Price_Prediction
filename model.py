@@ -12,5 +12,4 @@ regressor=LinearRegression()
 regressor.fit(X,y)
 pickle.dump(regressor,open('model.pkl','wb'))
 model=pickle.load(open('model.pkl','rb'))
-# print(model.predict([[4,5,6,7,78]]))
 

@@ -1,0 +1,23 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body-center {
+  margin: 0;
+  text-align: center;
+  align-items: center;
+  width: max-content;
+}
+body {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+h2 {
+  color: chartreuse;
+}
+.result {
+  text-align: center;
+  color: white;
+}
